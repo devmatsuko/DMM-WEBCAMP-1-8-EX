@@ -1,0 +1,31 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+main {
+  width: 960px; /* 横幅960px */
+  margin: 0 auto; /* 要素の中央揃え */
+  padding: 50px 0; /* 上下に50px、左右に0pxの内側余白 */
+}
+
+.list {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.list-item li {
+  padding: 20px; /* 上下左右に20pxの内側余白 */
+  list-style: none;
+}
+
+.list-item li:nth-child(even) {
+  background-color: lightgray;
+}
+
+.box {
+  width: 100%;
+}
